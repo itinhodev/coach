@@ -241,12 +241,19 @@ h6 {
   font-size: 40px;
 }
 
+#hero details:hover {
+  color: #000000;
+}
+
 #hero details > a {
   font-family: 'Teko', sans-serif;
   color: white;
   font-size: 30px;
 }
 
+#hero details > a:hover {
+  color:#000000
+}
 
 @media (max-width: 992px) {
   #hero {
