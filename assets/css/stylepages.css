@@ -197,7 +197,10 @@ h6 {
 
 #hero {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100vm;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: rgb(18, 199, 18);
   position: relative;
 }
@@ -235,9 +238,26 @@ h6 {
   font-family: 'Teko', sans-serif;
 }
 
-#hero p span {
-  color: #ffffff;
-  letter-spacing: 1px;
+#hero details {
+  font-family: 'Teko', sans-serif;
+  margin-top: 25px;
+  font-size: 40px;
+}
+
+#hero details:hover {
+  transition: 1s;
+  color: #000000;
+}
+
+#hero details > a {
+  font-family: 'Teko', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+#hero details > a:hover {
+  transition: 1s;
+  color:#000000
 }
 
 @media (max-width: 992px) {
@@ -252,8 +272,19 @@ h6 {
 
   #hero p {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 24px;
+  }
+  #hero details {
+    font-family: 'Teko', sans-serif;
+    margin-top: 25px;
+    font-size: 30px;
+  }
+  
+  #hero details > a {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 20px;
   }
 }
 
