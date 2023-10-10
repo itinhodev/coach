@@ -260,10 +260,14 @@ h6 {
 }
 
 #lista li {
-margin-left: 28px;}
+  display:flex;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
 
 #lista p {
-  line-height: 1%;
+  line-height: 20%;
   font-size: 20px;
 }
 
