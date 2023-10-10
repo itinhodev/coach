@@ -197,7 +197,10 @@ h6 {
 
 #hero {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100vm;
+  padding-top: 250px;
+  padding-bottom: 100px;
   background-color: rgb(18, 199, 18);
   position: relative;
 }
@@ -254,6 +257,14 @@ h6 {
     font-size: 30px;
     line-height: 24px;
   }
+}
+
+#lista li {
+margin-left: 28px;}
+
+#lista p {
+  line-height: 1%;
+  font-size: 20px;
 }
 
 #footer {
